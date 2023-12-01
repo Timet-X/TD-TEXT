@@ -1,7 +1,6 @@
 // script.js
 
 let ws = new WebSocket("wss://websocket-1.onrender.com/:443");
-
 let controllText = document.querySelector('.controllText');
 
 controllText.addEventListener('input', (event) => {
